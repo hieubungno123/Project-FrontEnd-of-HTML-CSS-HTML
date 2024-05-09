@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+}
+
+.nav-link{
+    margin-left:15px ;
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid red;
+    margin-right: -35px;
+}
+
+.btn0{
+    border: 2px solid red;
+    height: 40px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background: red ;
+    color: white;
+    font-weight: bold;
+    border-radius: 60px;
+}
+
+.main{
+    background: url(img/lunch.jpg) no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.sub-main{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(img/man-with-excited.jpg) no-repeat;
+    width: 100%;
+    height: 90vh;
+
+    background-size: cover;
+}
+
+.btn1 ,.btn2{
+    height: 45px;
+    width: 40%;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    background: rgb(255, 88, 88);
+}
+
+.btn1:hover ,.btn2:hover{
+    background: rgb(248, 9, 9);
+    transition: 0.5s;
+}
+
+
+
+.new img{
+    height: 100px;
+    width: 100px;
+}
+
+.new h6{
+    font-size: 25px;
+}
+
+.product .card-body img{
+    width: 180px;
+    height: 180px;
+}
+
+.card:hover{
+    box-shadow: 3px -1px 35px 3px rgba(89,85,85,0.7);
+-webkit-box-shadow: 3px -1px 35px 3px rgba(89,85,85,0.7);
+-moz-box-shadow: 3px -1px 35px 3px rgba(89,85,85,0.7);
+transition: 0.5s;
+}
+
+.about .row img{
+    height: 50%px;
+    width: 100%;
+}
+
+
+.another-product .card img{
+    height: 100%;
+    width: 100%;
+}
+
+.news{
+    background-color: black;
+    color: white;
+}
+
+.btn3{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.news input{
+    height: 45px;
+    width: 500px;
+    border: 2px solid white;
+    background-color: black;
+    color: rgb(235, 231, 231);
+    margin-top: 20px;
+    font-weight: 600;
+    outline: none;
+}
+
+.news::placeholder{
+    color: red;
+}
+
+.news span a{
+    font-size: 40px;
+    margin-right: 15px;
+    color: white;
+}
+
+.news span a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.news .row p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.news h6{
+    font-size: 25px;
+}
+
+.news p{
+    margin: 2px 0px;
+}
+
